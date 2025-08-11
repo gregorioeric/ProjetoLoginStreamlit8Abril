@@ -62,35 +62,7 @@ if st.session_state.email:
 else:
   login()
 
-
-
-# if st.session_state.email:
-#   tabs = st.tabs(["Dashboard", "Cadastro", "Logout"])
-
-#   with tabs[0]:
-#     nome = st.session_state.nome
-#     st.subheader("Dashboard")
-#     st.write(nome)
-
-#   with tabs[1]:
-#     st.subheader("Cadastro")
-
-#   with tabs[2]:
-#     st.subheader("Logout")
-# else:
-# login()
-
-# if "contador" not in st.session_state:
-#   st.session_state.contador = 0
-
-# if st.button("Adicionar"):
-#   st.session_state.contador += 1
-
-# if st.button("Diminuir"):
-#   if st.session_state.contador > 0:
-#     st.session_state.contador -= 1
-
-st.write(st.session_state)
+# st.write(st.session_state)
 
 
 
