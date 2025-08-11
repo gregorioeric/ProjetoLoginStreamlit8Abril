@@ -2,6 +2,7 @@ import streamlit as st
 import re
 from utils.validar_email import validar_email
 from datetime import date
+from controllers.alunos_controllers import select_aluno_por_email, select_aluno_por_cpf
 
 @st.dialog("Formulário de Cadastro de Alunos", width="large")
 def cadastrar_aluno():
@@ -41,7 +42,32 @@ def cadastrar_aluno():
       btn_cancelar = st.form_submit_button("Cancelar", use_container_width=True)
 
   if btn_cadastrar:
-    st.write(email_isvalid)
+    if not nome_aluno:
+      return st.warning("Campo Nome não pode ser vazio!")
+    
+    if not email_aluno:
+      return st.warning("Campo Email não pode ser vazio")
+    
+    if not email_isvalid:
+      return st.warning("Email invalido!")
+
+    if not cpf_aluno:
+      return st.warning("Campo CPF não pode ser vazio!")
+    
+    # funcão len() => conta a quantidade de itens de uma lista ou string
+    if len(cpf_aluno_numeros) != 11 or len(cpf_aluno_numeros) < 11:
+      return st.warning("CPF invalido")
+
+    if not telefone_aluno:
+      return st.warning("Campo Telefone não pode ser vazio!")
+    
+    # funcão len() => conta a quantidade de itens de uma lista ou string
+    if len(telefone_aluno_numeros) != 11 or len(telefone_aluno_numeros) < 11:
+      return st.warning("Telefone invalido")
+    
+
+    
+    
 
   if btn_cancelar:
     st.rerun()
