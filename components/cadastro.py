@@ -32,6 +32,7 @@ def cadastrar_aluno():
     cpf_aluno_numeros = re.sub(r"\D", "", cpf_aluno)
     telefone_aluno_numeros = re.sub(r"\D", "", telefone_aluno)
     email_isvalid = validar_email(email_aluno)
+    result_email = select_aluno_por_email(email_aluno)
 
     colunas = st.columns(2)
 
@@ -65,9 +66,10 @@ def cadastrar_aluno():
     if len(telefone_aluno_numeros) != 11 or len(telefone_aluno_numeros) < 11:
       return st.warning("Telefone invalido")
     
-
+    if result_email:
+      return st.warning("Email já está cadastro com outro aluno!")
     
-    
+    st.success("Cadastro realizado com sucesso!")
 
   if btn_cancelar:
     st.rerun()
