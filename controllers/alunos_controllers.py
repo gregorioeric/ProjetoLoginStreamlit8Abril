@@ -33,3 +33,15 @@ def select_aluno_por_cpf(cpf):
       return True
   else:
     return False
+  
+def insert_aluno(data_aluno):
+  alunos = load_alunos()
+
+  if not isinstance(data_aluno, dict) or not data_aluno:
+    return False
+  
+  alunos.append(data_aluno)
+
+  with open(ALUNOS, "w", encoding="utf-8") as arq_json:
+    json.dump(alunos, arq_json, indent=4, ensure_ascii=False)
+  return True

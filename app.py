@@ -2,6 +2,7 @@ import streamlit as st
 import time
 from controllers.load_usuarios import load_usuarios
 from components.cadastro import cadastrar_aluno
+from components.show_alunos import show_alunos
 
 st.set_page_config("Sistema de Cadastro", layout="wide")
 
@@ -52,6 +53,8 @@ def main_page():
     st.subheader("Cadastro")
     if st.button("Abrir Formulário de Cadastro"):
       cadastrar_aluno()
+    
+    show_alunos()
 
   with tabs[2]:
     st.subheader("Logout")
@@ -61,44 +64,3 @@ if st.session_state.email:
   main_page()
 else:
   login()
-
-# st.write(st.session_state)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if "contador" not in st.session_state:
-#   st.session_state.contador = 0
-
-
-# # teste = ""
-
-# # if not teste:
-# #   st.error("A variavel está vazia")
-# # else:
-# #   st.success("A variavel tem informação.")
-
-# if st.button("Somar"):
-#   st.session_state.contador += 1
-
-
-# if st.button("Diminuir"):
-#   if st.session_state.contador > 0:
-#     st.session_state.contador -= 1
-
-# st.write(st.session_state.contador)
