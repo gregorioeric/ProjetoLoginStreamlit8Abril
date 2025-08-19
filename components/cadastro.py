@@ -46,7 +46,7 @@ def cadastrar_aluno():
 
   if btn_cadastrar:
     if not nome_aluno:
-      return st.warning("Campo Nome não pode ser vazio!")
+      return st.error("Campo Nome não pode ser vazio!")
     
     if not email_aluno:
       return st.warning("Campo Email não pode ser vazio")
