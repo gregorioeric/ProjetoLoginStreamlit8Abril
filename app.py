@@ -3,16 +3,24 @@ import time
 from controllers.load_usuarios import load_usuarios
 from components.cadastro import cadastrar_aluno
 from components.show_alunos import show_alunos
+from components.modal_editar import modal_editar
 
 st.set_page_config("Sistema de Cadastro", layout="wide")
 
 st.title("Projeto Streamlit")
+
+if "modal_editar" not in st.session_state:
+  st.session_state.modal_editar = False
 
 if "email" not in st.session_state:
   st.session_state.email = None
 
 if "nome" not in st.session_state:
   st.session_state.nome = None
+
+if st.session_state.modal_editar:
+  get_id_aluno = st.session_state.id_aluno
+  modal_editar(get_id_aluno)
 
 def login():
   usuarios = load_usuarios()
