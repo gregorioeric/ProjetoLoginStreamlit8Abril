@@ -22,7 +22,9 @@ if st.session_state.modal_editar:
   get_id_aluno = st.session_state.id_aluno
   modal_editar(get_id_aluno)
 
+# Função login para fazer acesso ao sistema de cadastro
 def login():
+  # variavel usuarios está armazenando os dados que estão salvos no json
   usuarios = load_usuarios()
 
   email = st.text_input("Email", placeholder="Email")

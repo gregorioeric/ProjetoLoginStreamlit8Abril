@@ -6,5 +6,13 @@
         "cpf_aluno": "65465465465",
         "dataNasc_aluno": "2001-03-29",
         "telefone_aluno": "11922556633"
+    },
+    {
+        "id_aluno": 2,
+        "nome_aluno": "Gregorio Eric",
+        "email_aluno": "gregorio@greogrio.com",
+        "cpf_aluno": "65498732165",
+        "dataNasc_aluno": "2025-08-11",
+        "telefone_aluno": "11922554477"
     }
 ]
