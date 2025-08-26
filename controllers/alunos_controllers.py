@@ -47,3 +47,54 @@ def insert_aluno(data_aluno):
   with open(ALUNOS, "w", encoding="utf-8") as arq_json:
     json.dump(alunos, arq_json, indent=4, ensure_ascii=False)
   return True
+
+def update_aluno(id_aluno, data_aluno):
+  alunos = load_alunos()
+  updated = False
+
+  for aluno in alunos:
+    if aluno["id_aluno"] == id_aluno:
+      aluno["nome_aluno"] = data_aluno["nome_aluno"]
+      aluno["email_aluno"] = data_aluno["email_aluno"]
+      aluno["cpf_aluno"] = data_aluno["cpf_aluno"]
+      aluno["dataNasc_aluno"] = data_aluno["dataNasc_aluno"]
+      aluno["telefone_aluno"] = data_aluno["telefone_aluno"]
+      updated = True
+      break
+  
+  if updated:
+    with open(ALUNOS, "w", encoding="utf-8") as arq_json:
+      json.dump(alunos, arq_json, indent=4, ensure_ascii=False)
+    return True
+  else:
+    return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def update_aluno_by_id(id, update_aluno):
+#   alunos = load_alunos()
+
+#   for aluno in alunos:
+#     if aluno["id_aluno"] == id:
+#       aluno["nome_aluno"] = update_aluno["nome_aluno"]
+#       return alunos
+#   return False
