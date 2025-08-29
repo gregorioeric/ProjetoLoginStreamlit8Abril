@@ -2,6 +2,7 @@ import streamlit as st
 from controllers.alunos_controllers import load_alunos
 from utils.cpf_utils import cpf_utils
 from components.modal_visualizar import visualizar_aluno
+from components.modal_deletar import modal_deletar
 
 def show_alunos():
   st.subheader("Lista de Alunos Cadastrados!")
@@ -35,4 +36,4 @@ def show_alunos():
         visualizar_aluno(aluno)
 
       if colunas_aluno[4].button("Deletar", key=f"deletar_{aluno["id_aluno"]}", use_container_width=True):
-        pass
+        modal_deletar(aluno["id_aluno"])

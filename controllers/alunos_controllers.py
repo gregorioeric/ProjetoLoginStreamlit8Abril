@@ -68,33 +68,3 @@ def update_aluno(id_aluno, data_aluno):
     return True
   else:
     return False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def update_aluno_by_id(id, update_aluno):
-#   alunos = load_alunos()
-
-#   for aluno in alunos:
-#     if aluno["id_aluno"] == id:
-#       aluno["nome_aluno"] = update_aluno["nome_aluno"]
-#       return alunos
-#   return False
