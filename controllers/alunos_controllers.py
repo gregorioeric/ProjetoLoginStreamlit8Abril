@@ -68,3 +68,16 @@ def update_aluno(id_aluno, data_aluno):
     return True
   else:
     return False
+
+def deletar_aluno(id_aluno):
+  alunos = load_alunos()
+
+  nova_lista_alunos = [aluno for aluno in alunos if aluno["id_aluno"] != id_aluno]
+
+  if len(nova_lista_alunos) == len(alunos):
+    return False
+  
+  with open(ALUNOS, "w", encoding="utf-8") as arq_json:
+    json.dump(nova_lista_alunos, arq_json, indent=4, ensure_ascii=False)
+
+  return True

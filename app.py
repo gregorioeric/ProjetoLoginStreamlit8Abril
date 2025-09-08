@@ -18,6 +18,9 @@ if "email" not in st.session_state:
 if "nome" not in st.session_state:
   st.session_state.nome = None
 
+if "result_pesquisa" not in st.session_state:
+  st.session_state.result_pesquisa = None
+
 if st.session_state.modal_editar:
   get_id_aluno = st.session_state.id_aluno
   modal_editar(get_id_aluno)
@@ -74,3 +77,5 @@ if st.session_state.email:
   main_page()
 else:
   login()
+
+# st.write(st.session_state)

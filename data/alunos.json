@@ -2,17 +2,233 @@
     {
         "id_aluno": 1,
         "nome_aluno": "Eric Gregorio",
-        "email_aluno": "aquinoeric@aquino.com",
-        "cpf_aluno": "22255588899",
-        "dataNasc_aluno": "2001-03-29",
+        "email_aluno": "gregorio@greogrio.com",
+        "cpf_aluno": "65465465465",
+        "dataNasc_aluno": "2025-09-02",
         "telefone_aluno": "11922556633"
     },
     {
         "id_aluno": 2,
-        "nome_aluno": "Gregorio Eric",
-        "email_aluno": "gregorio@greogrio.com",
-        "cpf_aluno": "65498732165",
-        "dataNasc_aluno": "2025-08-11",
-        "telefone_aluno": "11922554477"
+        "nome_aluno": "Aquino Gregorio",
+        "email_aluno": "aquino@aquino.com",
+        "cpf_aluno": "11122233399",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11977442233"
+    },
+    {
+        "id_aluno": 3,
+        "nome_aluno": " GUSTAVO GUILLERME RODRIGUES DOS SANTOS",
+        "email_aluno": "gustavo@gustavo.com",
+        "cpf_aluno": "22255577788",
+        "dataNasc_aluno": "1987-09-18",
+        "telefone_aluno": "11933557788"
+    },
+    {
+        "id_aluno": 4,
+        "nome_aluno": "TALITA LIMA BENICIO",
+        "email_aluno": "talita@talita.co.uk",
+        "cpf_aluno": "33366699988",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11966554422"
+    },
+    {
+        "id_aluno": 5,
+        "nome_aluno": "VINICIUS GARCIA FIGUEIREDO",
+        "email_aluno": "garcia@garcia.com.br",
+        "cpf_aluno": "44455566699",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11922554488"
+    },
+    {
+        "id_aluno": 6,
+        "nome_aluno": "JOSE VINICIUS DE OLIVEIRA SILVA",
+        "email_aluno": "jose@jose.com.br",
+        "cpf_aluno": "55566688877",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11977553322"
+    },
+    {
+        "id_aluno": 7,
+        "nome_aluno": " ANA KAROLINA LINO VALENÇA",
+        "email_aluno": "karolina@karolina.co.uk",
+        "cpf_aluno": "66688899944",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11977448855"
+    },
+    {
+        "id_aluno": 8,
+        "nome_aluno": " RICHARD GONÇALVES CAMARGO",
+        "email_aluno": "richard@richard.ie",
+        "cpf_aluno": "77788899966",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11999554477"
+    },
+    {
+        "id_aluno": 9,
+        "nome_aluno": "FERNANDO BOTINI COSTA",
+        "email_aluno": "fernando@fernando.com.au",
+        "cpf_aluno": "88899977733",
+        "dataNasc_aluno": "1988-09-22",
+        "telefone_aluno": "11933669988"
+    },
+    {
+        "id_aluno": 10,
+        "nome_aluno": "GABRIEL RIBEIRO ALVES",
+        "email_aluno": "gabriel@gabriel.it",
+        "cpf_aluno": "99955566633",
+        "dataNasc_aluno": "2025-09-03",
+        "telefone_aluno": "11963214785"
+    },
+    {
+        "id_aluno": 11,
+        "nome_aluno": "ELOYSE CRISTINE DE ARAUJO GONZAGA",
+        "email_aluno": "eloyse@eloyse.jp",
+        "cpf_aluno": "22299977744",
+        "dataNasc_aluno": "1969-09-18",
+        "telefone_aluno": "11999774455"
+    },
+    {
+        "id_aluno": 12,
+        "nome_aluno": "GUSTAVO GALDINO DA FONSECA",
+        "email_aluno": "galdino@galdino.ru",
+        "cpf_aluno": "88833311155",
+        "dataNasc_aluno": "1943-09-16",
+        "telefone_aluno": "11977223344"
+    },
+    {
+        "id_aluno": 13,
+        "nome_aluno": "MIGUEL ANGELO BERTOLO CAMPOS",
+        "email_aluno": "miguel@miguel.pl",
+        "cpf_aluno": "44466633311",
+        "dataNasc_aluno": "1985-09-08",
+        "telefone_aluno": "11911225566"
+    },
+    {
+        "id_aluno": 14,
+        "nome_aluno": "MATHEUS BASTOS CARDEAL",
+        "email_aluno": "matheus@matheus.no",
+        "cpf_aluno": "14725836987",
+        "dataNasc_aluno": "1967-09-05",
+        "telefone_aluno": "11944558866"
+    },
+    {
+        "id_aluno": 15,
+        "nome_aluno": "CAIO DUARTE DE MORAIS",
+        "email_aluno": "caio@caio.at",
+        "cpf_aluno": "77553366998",
+        "dataNasc_aluno": "1970-09-22",
+        "telefone_aluno": "11963258745"
+    },
+    {
+        "id_aluno": 16,
+        "nome_aluno": "YGOR DAVID DAS NEVES",
+        "email_aluno": "ygor@ygor.com.ar",
+        "cpf_aluno": "11987586542",
+        "dataNasc_aluno": "1929-09-25",
+        "telefone_aluno": "11936253526"
+    },
+    {
+        "id_aluno": 17,
+        "nome_aluno": " NATHALIE RIBEIRO ALENCAR",
+        "email_aluno": "nathalie@nathalie.se",
+        "cpf_aluno": "15935745625",
+        "dataNasc_aluno": "1954-09-30",
+        "telefone_aluno": "11947523689"
+    },
+    {
+        "id_aluno": 19,
+        "nome_aluno": "Fudencio Rodrigues",
+        "email_aluno": "fudencio@fudencio.com",
+        "cpf_aluno": "33557788446",
+        "dataNasc_aluno": "1919-07-06",
+        "telefone_aluno": "11988441199"
+    },
+    {
+        "id_aluno": 20,
+        "nome_aluno": "EDUARDO DANIEL MAIA BRASIL",
+        "email_aluno": "eduardo@eduardo.com",
+        "cpf_aluno": "55994411223",
+        "dataNasc_aluno": "1964-09-23",
+        "telefone_aluno": "11965432587"
+    },
+    {
+        "id_aluno": 21,
+        "nome_aluno": "VINICIUS HEITOR SAMPAIO MINATTI",
+        "email_aluno": "vinicius.heitor@vinicius.com",
+        "cpf_aluno": "77722255544",
+        "dataNasc_aluno": "1980-09-21",
+        "telefone_aluno": "11977554411"
+    },
+    {
+        "id_aluno": 22,
+        "nome_aluno": "FLÁVIA ROBERTA MARQUES DA COSTA LOPES",
+        "email_aluno": "flavia@flavia.com",
+        "cpf_aluno": "11177733344",
+        "dataNasc_aluno": "1964-09-14",
+        "telefone_aluno": "11977886611"
+    },
+    {
+        "id_aluno": 23,
+        "nome_aluno": "ANGELA DO NASCIMENTO GON",
+        "email_aluno": "angela@angela.com",
+        "cpf_aluno": "22277799933",
+        "dataNasc_aluno": "1980-09-24",
+        "telefone_aluno": "11966773311"
+    },
+    {
+        "id_aluno": 24,
+        "nome_aluno": "NICHOLAS MORETI VIANA BASTOS",
+        "email_aluno": "nicholas@nicholas.com",
+        "cpf_aluno": "22667744889",
+        "dataNasc_aluno": "1967-09-10",
+        "telefone_aluno": "11988334466"
+    },
+    {
+        "id_aluno": 25,
+        "nome_aluno": "VITOR MANOEL NUNES DE OLIVEIRA",
+        "email_aluno": "vitor@vitor.com",
+        "cpf_aluno": "22233366688",
+        "dataNasc_aluno": "1967-09-20",
+        "telefone_aluno": "11933774488"
+    },
+    {
+        "id_aluno": 26,
+        "nome_aluno": " MATHEUS BUJE PEGORIN",
+        "email_aluno": "buje@buje.com",
+        "cpf_aluno": "98765432177",
+        "dataNasc_aluno": "1978-09-18",
+        "telefone_aluno": "11965432177"
+    },
+    {
+        "id_aluno": 27,
+        "nome_aluno": "MARINA LUIZA QUINTANA TOMASINE",
+        "email_aluno": "marina@marina.com",
+        "cpf_aluno": "96325874122",
+        "dataNasc_aluno": "2002-09-24",
+        "telefone_aluno": "11925874125"
+    },
+    {
+        "id_aluno": 28,
+        "nome_aluno": "NATHALIA GONCALVES",
+        "email_aluno": "nathalia@nathalia.com",
+        "cpf_aluno": "14785236988",
+        "dataNasc_aluno": "1995-09-11",
+        "telefone_aluno": "11988771133"
+    },
+    {
+        "id_aluno": 29,
+        "nome_aluno": " BRUNO FABRO LOURENÇONE",
+        "email_aluno": "bruno@bruno.com",
+        "cpf_aluno": "25874136999",
+        "dataNasc_aluno": "1997-09-19",
+        "telefone_aluno": "11968753245"
+    },
+    {
+        "id_aluno": 30,
+        "nome_aluno": "ISABELA MARIM COLOMBO",
+        "email_aluno": "isac@isac.com",
+        "cpf_aluno": "88779944663",
+        "dataNasc_aluno": "1999-09-13",
+        "telefone_aluno": "11933586924"
     }
 ]

@@ -1,11 +1,11 @@
 import streamlit as st
 
-@st.dialog("Visualizar Dados do Aluno")
+@st.dialog("Visualizar Dados do Aluno", width="large")
 def visualizar_aluno(aluno):
   colunas = st.columns([2, 3])
 
   with colunas[0]:
-    st.subheader("Nome")
+    st.caption("Nome")
     st.subheader("Email")
     st.subheader("Data de Nascimento")
     st.subheader("CPF")

@@ -4,7 +4,7 @@ import streamlit as st
 # da pasta utils selecionar o arquivo validar_email e importar a função validar_email
 from utils.validar_email import validar_email
 
-# importando a função re do proprio python
+# importando a função re do proprio python, regular expression
 import re
 
 # importando a função time do proprio python
@@ -120,6 +120,7 @@ def modal_editar(id_aluno):
     if result_update:
       st.success("Dados do Aluno Atualizado com sucesso!")
       st.session_state.modal_editar = False
+      st.session_state.id_aluno = 0
       time.sleep(3)
       st.rerun()
 
