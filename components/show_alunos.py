@@ -94,36 +94,3 @@ def show_alunos():
 
         if colunas_resultado[4].button("Deletar", key=f"deletar_pesquisa_{alunos_encontrados["id_aluno"]}", use_container_width=True):
           modal_deletar(alunos_encontrados["id_aluno"], alunos_encontrados["nome_aluno"])
-
-
-
-
-
-
-
-
-    # get_pesquisa = st.session_state.result_pesquisa
-    
-    # if get_pesquisa:
-    #   colunas_resultado_header = st.columns([3, 3, 2, 2, 2])
-
-    #   colunas_resultado_header[0].subheader("Nome")
-    #   colunas_resultado_header[1].subheader("Email")
-    #   colunas_resultado_header[2].subheader("CPF")
-    #   colunas_resultado_header[3].subheader("Visualizar")
-    #   colunas_resultado_header[4].subheader("Deletar")
-
-    #   for alunos_encontrado in get_pesquisa:
-    #     colunas_resultado = st.columns([3, 3, 2, 2, 2])
-
-    #     cpf_formatado_pesquisa = cpf_utils(alunos_encontrado["cpf_aluno"])
-
-    #     colunas_resultado[0].write(alunos_encontrado["nome_aluno"])
-    #     colunas_resultado[1].write(alunos_encontrado["email_aluno"])
-    #     colunas_resultado[2].write(cpf_formatado_pesquisa)
-
-    #     if colunas_resultado[3].button("Visualizar", key=f"view_search_{alunos_encontrado['id_aluno']}", use_container_width=True):
-    #       visualizar_aluno(alunos_encontrado)
-
-    #     if colunas_resultado[4].button("Deletar", key=f"deletar_search_{alunos_encontrado["id_aluno"]}", use_container_width=True):
-    #       modal_deletar(alunos_encontrado["id_aluno"], alunos_encontrado["nome_aluno"])
